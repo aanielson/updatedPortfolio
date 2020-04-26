@@ -43,48 +43,40 @@
         <div class="row">
             <h2 class="col-md-11 m-5 p-2 border-bottom">Portfolio</h2>
         </div>
-
+        <!--Portfolio Items Row 1-->
         <div class="row m-4">
             <div class="col-md-4">
-                <a href="https://aanielson.github.io/Word-Guess-Game/index.html">
+                <div data-toggle="modal" data-target="#myHangman">
                     <img src="assets/images/book-yellow-wall.jpg" alt="image" class="img-fluid">
                     <p class="item-title p-3 text-center">Hangman</p>
-                </a>
+                </div>
             </div>
             <div class="col-md-4">
-                <a href="https://aanielson.github.io/unit-4-game/index.html">
+                <div data-toggle="modal" data-target="myCrystals">
                     <img src="assets/images/yellow-bamboo-copy.jpg" alt="image" class="img-fluid">
                     <p class="item-title p-3 text-center">Crystals Game</p>
-                </a>
+                </div>
             </div>
-            <div class="col-md-4">
-                <a href="https://aanielson.github.io/TriviaGame/">
-                    <img src="assets/images/yellow-roof.jpg" alt="image" class="img-fluid">
-                    <p class="item-title p-3 text-center">Trivia Game</p>               
-                </a>
+            <div class="col-md-4" data-toggle="modal" data-target="myTrivia">
+                <img src="assets/images/yellow-roof.jpg" alt="image" class="img-fluid">
+                <p class="item-title p-3 text-center">Trivia Game</p>               
             </div>
         </div>
 
         <div class="clearfix"></div>
-
+        <!--Portfolio Items Row 2-->
         <div class="row m-4">
-            <div class="col-md-4">
-                <a href="https://aanielson.github.io/GifTastic/">
-                    <img src="assets/images/sunflower-field.jpg" alt="image" class="img-fluid">
-                    <p class="item-title p-3 text-center">GifTastic</p>               
-                </a>
+            <div class="col-md-4" data-toggle="modal" data-target="myGifTastic">
+                <img src="assets/images/sunflower-field.jpg" alt="image" class="img-fluid">
+                <p class="item-title p-3 text-center">GifTastic</p>               
             </div>
-            <div class="col-md-4">
-                <a href="https://aanielson.github.io/Train-Scheduler/">
-                    <img src="assets/images/daisies-on-yellow.jpg" alt="image" class="img-fluid">
-                    <p class="item-title p-3 text-center">Train Scheduler</p>               
-                </a>
+            <div class="col-md-4" data-toggle="modal" data-target="myTrainScheduler">
+                <img src="assets/images/daisies-on-yellow.jpg" alt="image" class="img-fluid">
+                <p class="item-title p-3 text-center">Train Scheduler</p>               
             </div>
-            <div class="col-md-4">
-                <a href="https://lindseypaluso.github.io/project1/index.html">
-                    <img src="assets/images/grass-field.jpg" alt="image" class="img-fluid">
-                    <p class="item-title p-3 text-center">Group Project 1</p>               
-                </a>
+            <div class="col-md-4" data-toggle="modal" data-target="myGroupProject1">
+                <img src="assets/images/grass-field.jpg" alt="image" class="img-fluid">
+                <p class="item-title p-3 text-center">Group Project 1</p>               
             </div>
         </div>
 
@@ -93,6 +85,118 @@
 
     <div class="clearfix"></div>
     
+    <!--MODALS with project info-->
+    <!--Hangman modal-->
+    <div id="myHangman" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Hangman</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://aanielson.github.io/Word-Guess-Game/index.html" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Crystals Game Modal-->
+    <div id="myCrystals" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Crystals Game</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://aanielson.github.io/unit-4-game/index.html" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Trivia Game Modal-->
+    <div id="myTrivia" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Trivia Game</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://aanielson.github.io/TriviaGame/" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--GifTastic Modal-->
+    <div id="myGifTastic" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>GifTastic</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://aanielson.github.io/GifTastic/" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Train Scheduler Modal-->
+    <div id="myTrainScheduler" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Train Scheduler</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://aanielson.github.io/Train-Scheduler/" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Group project modal-->
+    <div id="myGroupProject1" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!--Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Hike & Forage Utah</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This project was super awesome. I'll add more details about it later.</p>
+                    <a href="https://lindseypaluso.github.io/project1/index.html" class="project-link">Go to project!</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!--Footer with link to LinkedIn--> 
     <footer class="navbar-fixed-bottom text-center p-4 mt-5">
         <p>Copyright 2020</p>

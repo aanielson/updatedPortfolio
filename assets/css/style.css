@@ -68,6 +68,14 @@ body {
     color: #faefd9;
     background-color: #43acba;
 }
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.project-link {
+    color: #357355;;
+    margin-top: 10px;
+}
 
 /*Footer Styling*/
 footer {
