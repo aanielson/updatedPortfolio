@@ -11,7 +11,7 @@
     background-image: url(../images/book-yellow-wall.jpg);
     width: 100%;
     height: 250px;
-    box-shadow: 3px 3px 5px #357355;
+    box-shadow: 3px 3px 5px #193829;
     background-size: cover;
     color: #faefd9;
     text-align: center;
@@ -44,7 +44,7 @@ header {
 
 /*body styling*/
 body {
-    background-image: url(../images/top-view-flowers.jpg);
+    background-image: url(../images/top-view-flowers.png);
     background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
 }
@@ -70,8 +70,8 @@ body {
 
 /*Footer Styling*/
 footer {
-    background-color: #43acba;
-    border-top: solid #357355;
+    background-color: #357355;
+    border-top: solid #193829;
     color: #faefd9;
     font-family: 'Open Sans', sans-serif;
 }
