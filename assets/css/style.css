@@ -1,7 +1,4 @@
 /*Header and nav styling*/
-header {
-    
-}
 .nav {
     position: absolute;
     text-align: right;
@@ -10,15 +7,28 @@ header {
     z-index: 1;
   }
 .header-box {
-    background-image: url(../images/yellow-bamboo.jpg);
+    background-image: url(../images/book-yellow-wall.jpg);
     width: 100%;
     height: 250px;
     box-shadow: 3px 3px 5px grey;
     background-size: cover;
     color: white;
     text-align: center;
-    font-size: 60px;
     padding-top: 70px;
     margin-bottom: 10px;
-    
   }
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 60px;
+    /* font-family: 'Aguafina Script', cursive; */
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+/*body styling*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
