@@ -72,6 +72,14 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+.portfolio-modal {
+    cursor: pointer;
+}
+#modal-button {
+    color: #faefd9;
+    font-size: 12px;
+    background-color: #357355;
+  }
 .project-link {
     color: #357355;;
     margin-top: 10px;
