@@ -10,7 +10,7 @@
 .header-box {
     background-image: url(../images/book-yellow-wall.jpg);
     width: 100%;
-    height: 250px;
+    height: 280px;
     box-shadow: 3px 3px 5px #193829;
     background-size: cover;
     color: #faefd9;
@@ -37,6 +37,7 @@ header {
     display: block;
     background-color: #f2ae02;
     border-bottom: solid  #357355;
+    color: #faefd9;
     width: 100%;
     height: 100px;
     margin: -1px;
@@ -83,4 +84,22 @@ footer {
     margin-right: 30px;
     margin-bottom: 20px;
     border: solid  #357355;
+}
+
+/*Responsive Styling*/
+@media screen and (max-width: 980px) {
+    .main {
+        width: 900px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .main {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #main-img {
+        width: 100%;
+        margin-top: -20px;
+    }
 }
