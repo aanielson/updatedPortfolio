@@ -27,6 +27,11 @@ h3{
     font-family: 'Open Sans', sans-serif;
     padding-top: 10px;
     font-size: 30px;
+    color: #faefd9;
+}
+h2 {
+    font-family: 'Rock Salt', cursive;
+    color: #357355;
 }
 header {
     display: block;
@@ -54,6 +59,13 @@ body {
     margin-bottom: 30px;
     padding-top: 40px;
     font-size: 13pt;
+}
+.btn {
+    margin-left: 10px;
+}
+.item-title {
+    color: #faefd9;
+    background-color: #43acba;
 }
 
 /*Footer Styling*/
